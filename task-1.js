@@ -12,13 +12,13 @@ const getUsersWithGender = (users, gender) => users.filter(user => user.gender =
 console.log(getUsersWithGender(users, 'male'));
 // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
 
-// заданик 4
+// задание 4
 
 const getInactiveUsers = users => users.filter(user => user.isActive);
 
 console.log(getInactiveUsers(users)); // [объект Moore Hensley, объект Ross Vazquez, объект Blackburn Dotson]
 
-// заданик 5
+// задание 5
 
 const getUserWithEmail = (users, email) => users.find(user => user.email === email);
 
